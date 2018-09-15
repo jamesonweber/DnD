@@ -103,11 +103,11 @@
 		C377417E214C9A8D00BA5A37 /* DnD */ = {
 			isa = PBXGroup;
 			children = (
-				C377417F214C9A8D00BA5A37 /* AppDelegate.swift */,
 				C377418A214C9A8E00BA5A37 /* LaunchScreen.storyboard */,
 				C3774185214C9A8D00BA5A37 /* Main.storyboard */,
 				C37741B0214CA27100BA5A37 /* Pocos */,
 				C37741B5214D6FF000BA5A37 /* Views */,
+				C377417F214C9A8D00BA5A37 /* AppDelegate.swift */,
 				C3774188214C9A8E00BA5A37 /* Assets.xcassets */,
 				C377418D214C9A8E00BA5A37 /* Info.plist */,
 			);

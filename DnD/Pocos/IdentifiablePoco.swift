@@ -10,21 +10,21 @@ import Foundation
 
 /// The identifier class all pocos should inherit from
 class IdentifiablePoco {
-    
+
     // -------------------------------------
     // Properties
     // -------------------------------------
-    
+
     /// Unique idetifier for this poco
-    let guid: String?;
-    
+    let guid: String?
+
     // -------------------------------------
     // Constructor and functions
     // -------------------------------------
-    
+
     /// Constructor
     init(guid: String? = nil) {
-        self.guid = guid;
+        self.guid = guid
     }
-    
+
 }

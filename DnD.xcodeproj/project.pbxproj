@@ -17,6 +17,8 @@
 		C37741A2214C9A8E00BA5A37 /* DnDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741A1214C9A8E00BA5A37 /* DnDUITests.swift */; };
 		C37741B2214CA59F00BA5A37 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741B1214CA59F00BA5A37 /* User.swift */; };
 		C37741B4214CAA8400BA5A37 /* IdentifiablePoco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741B3214CAA8400BA5A37 /* IdentifiablePoco.swift */; };
+		C37741BA214D8AD700BA5A37 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741B9214D8AD700BA5A37 /* OverviewViewController.swift */; };
+		C37741BC214D8D4700BA5A37 /* MainTabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741BB214D8D4700BA5A37 /* MainTabBarContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		C37741A3214C9A8E00BA5A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C37741B1214CA59F00BA5A37 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C37741B3214CAA8400BA5A37 /* IdentifiablePoco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiablePoco.swift; sourceTree = "<group>"; };
+		C37741B9214D8AD700BA5A37 /* OverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		C37741BB214D8D4700BA5A37 /* MainTabBarContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,8 @@
 				C377418A214C9A8E00BA5A37 /* LaunchScreen.storyboard */,
 				C3774185214C9A8D00BA5A37 /* Main.storyboard */,
 				C37741B0214CA27100BA5A37 /* Pocos */,
-				C37741B5214D6FF000BA5A37 /* Views */,
+				C37741BD214D951F00BA5A37 /* ComponentContollers */,
+				C37741B5214D6FF000BA5A37 /* ViewControllers */,
 				C377417F214C9A8D00BA5A37 /* AppDelegate.swift */,
 				C3774188214C9A8E00BA5A37 /* Assets.xcassets */,
 				C377418D214C9A8E00BA5A37 /* Info.plist */,
@@ -141,13 +146,22 @@
 			path = Pocos;
 			sourceTree = "<group>";
 		};
-		C37741B5214D6FF000BA5A37 /* Views */ = {
+		C37741B5214D6FF000BA5A37 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				C3774181214C9A8D00BA5A37 /* FirstViewController.swift */,
+				C37741B9214D8AD700BA5A37 /* OverviewViewController.swift */,
 				C3774183214C9A8D00BA5A37 /* SecondViewController.swift */,
 			);
-			path = Views;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C37741BD214D951F00BA5A37 /* ComponentContollers */ = {
+			isa = PBXGroup;
+			children = (
+				C37741BB214D8D4700BA5A37 /* MainTabBarContoller.swift */,
+			);
+			path = ComponentContollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +314,11 @@
 			files = (
 				C37741B2214CA59F00BA5A37 /* User.swift in Sources */,
 				C37741B4214CAA8400BA5A37 /* IdentifiablePoco.swift in Sources */,
+				C37741BC214D8D4700BA5A37 /* MainTabBarContoller.swift in Sources */,
 				C3774184214C9A8D00BA5A37 /* SecondViewController.swift in Sources */,
 				C3774180214C9A8D00BA5A37 /* AppDelegate.swift in Sources */,
 				C3774182214C9A8D00BA5A37 /* FirstViewController.swift in Sources */,
+				C37741BA214D8AD700BA5A37 /* OverviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

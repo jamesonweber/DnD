@@ -27,7 +27,6 @@ class Character: IdentifiablePoco {
     /// The sub class for this character
     let subClass: SubCharacterClass?
 
-
     // -------------------------------------
     // Constructor and functions
     // -------------------------------------
@@ -42,13 +41,12 @@ class Character: IdentifiablePoco {
 
         self.description = description
         self.mainClass = mainClass
-        self.name = name ?? String.Empty()
+        self.name = name ?? String.empty()
         self.subClass = subClass
         super.init(guid: guid)
     }
 
 }
-
 
 // -------------------------------------
 // Character enums
@@ -58,11 +56,11 @@ class Character: IdentifiablePoco {
 public enum MainCharacterClass: String {
     case barbarian = "Barbarian"
     case bard = "bard"
-    // TODO: the rest of the main classes
+    // todo: the rest of the main classes
 }
 
 /// Sub class types for the characters
 public enum SubCharacterClass: String {
     case barbarianBeserker = "Beserker"
-    // TODO: the rest of the sub classes
+    // todo: the rest of the sub classes
 }

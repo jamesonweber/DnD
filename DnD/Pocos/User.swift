@@ -23,7 +23,6 @@ class User: IdentifiablePoco {
 
     /// The user's password
     let password: String?
-    
 
     // -------------------------------------
     // Constructor and functions

@@ -12,8 +12,8 @@ import Foundation
 extension String {
 
     /** Gets a new empty string */
-    static func Empty() -> String {
-        return "";
+    static func empty() -> String {
+        return ""
     }
 
 }

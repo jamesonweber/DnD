@@ -91,7 +91,7 @@
                         <viewLayoutGuide key="safeArea" id="8fB-5t-e9x"/>
                     </view>
                     <connections>
-                        <outlet property="name" destination="yG3-JO-SF1" id="Pc7-I1-qSv"/>
+                        <outlet property="nameTextField" destination="yG3-JO-SF1" id="yvO-cf-3Zq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3v0-5U-eSr" userLabel="First Responder" sceneMemberID="firstResponder"/>

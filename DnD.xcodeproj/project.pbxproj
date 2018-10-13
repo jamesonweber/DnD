@@ -21,6 +21,7 @@
 		C37741BC214D8D4700BA5A37 /* MainTabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37741BB214D8D4700BA5A37 /* MainTabBarContoller.swift */; };
 		C3AF61EC216EEDDA00A0C65E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF61EB216EEDDA00A0C65E /* Character.swift */; };
 		C3AF61EE216EF32100A0C65E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF61ED216EF32100A0C65E /* StringExtensions.swift */; };
+		C3AF61F621718BAA00A0C65E /* ManagementTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AF61F421718BAA00A0C65E /* ManagementTabBar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		C37741BB214D8D4700BA5A37 /* MainTabBarContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContoller.swift; sourceTree = "<group>"; };
 		C3AF61EB216EEDDA00A0C65E /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		C3AF61ED216EF32100A0C65E /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C3AF61F521718BAA00A0C65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DnD/Base.lproj/ManagementTabBar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				C377418A214C9A8E00BA5A37 /* LaunchScreen.storyboard */,
 				C3774185214C9A8D00BA5A37 /* Main.storyboard */,
+				C3AF61F421718BAA00A0C65E /* ManagementTabBar.storyboard */,
 				C37741B0214CA27100BA5A37 /* Pocos */,
 				C37741BD214D951F00BA5A37 /* ComponentContollers */,
 				C37741B5214D6FF000BA5A37 /* ViewControllers */,
@@ -281,6 +284,7 @@
 				C377418C214C9A8E00BA5A37 /* LaunchScreen.storyboard in Resources */,
 				C3774189214C9A8E00BA5A37 /* Assets.xcassets in Resources */,
 				C3774187214C9A8D00BA5A37 /* Main.storyboard in Resources */,
+				C3AF61F621718BAA00A0C65E /* ManagementTabBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +383,14 @@
 				C377418B214C9A8E00BA5A37 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C3AF61F421718BAA00A0C65E /* ManagementTabBar.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3AF61F521718BAA00A0C65E /* Base */,
+			);
+			name = ManagementTabBar.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
